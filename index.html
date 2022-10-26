@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrontEnders Global</title>
-<link rel="stylesheet" href="./css/index.css">
+  <title>Front Enders Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/index.css">
+
+
+
 </head>
+<body>
 
- <body>
-
-<div class="header">
-    <a href="./index.html" class="logo">Front Enders</a>
-    <div class="header-right">
-      <a href="./index.html">Início</a>
-      <a href="#contact">Contato</a>
-      <a href="Sobre.html">Sobre</a>
-      <div class="dropdown">
-        <button class="dropbtn">Inscrição
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Cadastrar</a>
-          <a href="#">Comprar</a>
-          <a href="#">Solicitar</a>
-        </div>
-      </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Front Enders</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Sobre.html">Sobre</a>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Inscrição</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Solicitar</a></li>
+            <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="#">A third link</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
-  <br>
-<br>
+</nav>
+
+<div class="container-fluid mt-3">
+  <h3> EverOn</h3>
+  <h4>Conectado de ponta a ponta</h4>
+</div>
 
 <br>
 <div class="meio">
-<h1>Empresas GalaxyWifi</h1>
+<h1>Front Enders Global</h1>
 <form>
 <div class="endereco">
 <input type="text" onfocus="this.value=''" value="Endereço De Serviço" placeholder="Digite seu endereço" id="txtendereco" required>
@@ -47,38 +65,26 @@
 <a href="#">Verificar Disponibilidade</a>
 </div>
     <div class="termo">
-    <p>Ao clicar em “pedir agora”, você concorda com nossa Política de Privacidade</p>
+    <p>Ao clicar em “pedir agora”, você concorda com nossa <b>Política de Privacidade</b></p>
     </div>
 </form>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="tab">
         <button class="tablinks" onmouseover="openFunc(event, 'descricao')">Descrição:</button>
-        <button class="tablinks" onmouseover="openFunc(event, 'oque')">O que ?</button>
+        <button class="tablinks" onmouseover="openFunc(event, 'oque')">O que é ?</button>
         <button class="tablinks" onmouseover="openFunc(event, 'como')">Como ?</button>
       </div>
       
       <div id="descricao" class="tabcontent">
         <h3>Descrição:</h3>
-        <p>GalaxyWifi é um projeto de desenvolvimento de constelação de satélites em andamento por alunos do Senac para desenvolver uma plataforma de transceptor terrestre e de satélite de baixo custo e alto desempenho
+        <p>EverOn é um projeto de desenvolvimento de constelação de satélites em andamento por alunos do Senac para desenvolver uma plataforma de transceptor terrestre e de satélite de baixo custo e alto desempenho
            para habilitar novos sistemas de comunicação baseados na Internet.</p>
       </div>
       
       <div id="oque" class="tabcontent">
-        <h3>O que ?</h3>
+        <h3>O que é ?</h3>
         <p>Sistemas de redes vias satélites</p>
       </div>
       
@@ -89,25 +95,25 @@
              Os milhares de satélites que serão colocados em órbita formarão uma rede ampla e alta capacidade, atingindo regiões que as operadoras atuais de telecomunicação ainda não alcançam.</p>
       </div>
 <br>
-<br>
 
-      <div class="row">
-        <div class="column">
-          <img src="./img/antena1.jpg" alt="img"  width="590px" height="400px">
-        <p>Antena terrestre</p>
-        </div>
-        <div class="column">
-          <img src="./img/antena3.jpg" alt="img" width="590px" height="400px">
-       <p>Satélite mapeamento</p>
-        </div>
-        <div class="column">
-          <img src="./img/antena4.jpg" alt="img" width="590px" height="400px">
-       <p>Instalação</p>
-        </div>
-      </div>
+<br>
 <br>
 
 
+<div class="imgfim">
+<div id="responsive-imgs">
+  <img src="./img/antena1.jpg" id="imgs"/>
+  <img src="./img/antena5.jpg" id="imgs" />
+  <img src="./img/antena4.jpg" id="imgs"/>
+
+
+</div>
+
+</div>
+
+
+
+<br>
 
 
 
@@ -117,13 +123,19 @@
 
 
 
-
-
-
-
-
-
-
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contato</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+  </footer>
+</div>
+</div>
 
 
 <script src="./js/index.js"></script>
