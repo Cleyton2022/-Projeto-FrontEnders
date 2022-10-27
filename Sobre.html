@@ -4,90 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sobre.css">   
     <title>Document</title>
 </head>
 <body>
 
-  <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="fs-4">FrontEnders</span>
-      </a>
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
-    </header>
+<!---Barra de navegação-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Front Enders</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Sobre.html">Sobre</a>
+          </li>  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Inscrição</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Solicitar</a></li>
+              <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+              <li><a class="dropdown-item" href="#">A third link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--primeira div de texto-->
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normal">EverOn</h1>
+      <p class="lead fw-normal">Imagina só, ter acesso wifi nos lugares mais improváveis. Idealizado no ano de 2022, a FrontEnders desenvolveu seu mais novo produto, o EverOn. Com ele você tem acesso a internet de qualquer lugar de onde estiver!</p>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
   </div>
-
-
-  
+<!--imagem-->
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <img src="/img/antena3.jpg" class="img-fluid">
+  </div>
+<!--segunda div de texto-->
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-light bg-dark">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normal">Sempre conectado</h1>
+      <p class="lead fw-normal">Contratando nossos serviços, o usuário receberá um terminal para receptar o sinal via satélite, através desse terminal será possivel utilizar internet Wifi de qualquer lugar do mundo!</p>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+<!--Título de preços-->
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal">Nossos Pacotes</h1>
+    <p class="fs-5 text-muted">Ofertas válidas exclusivamente nas contratações através do site oficial.</p>
+  </div>
+<!--Cards de Preços-->
   <main>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <!--Card de graça-->
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
             <h4 class="my-0 fw-normal">Periodo Teste</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">R$0<small class="text-muted fw-light">/1hora</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
+              <li>1 aparelho conectado</li>
+              <li>100mb de internet</li>
+              <li>acesso limitado</li>
+              <li>apenas aplicativos autorizados</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+            <button type="button" class="w-100 btn btn-outline-dark">Inscreva-se de graça!</button>
           </div>
         </div>
       </div>
+      <!--Card Mensal-->
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
+          <div class="card-header py-3 text-bg-secondary">
             <h4 class="my-0 fw-normal">Plano Mensal</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">R$150<small class="text-muted fw-light">/mês</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
+              <li>4 aparelhos conectados</li>
+              <li>100 GB de internet</li>
+              <li>Acesso ilimitado</li>
+              <li>Serviço de suporte</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            <button type="button" class="w-100 btn btn-lg btn-secondary">Adquira agora!</button>
           </div>
         </div>
       </div>
+      <!--Card anual-->
       <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
             <h4 class="my-0 fw-normal">Plano Anual</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">R$300<small class="text-muted fw-light">/mês</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
+              <li>10 aparelhos conectados</li>
+              <li>200 GB de internet</li>
+              <li>Acesso ilimitado</li>
+              <li>Serviço de suporte</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Adquira agora!</button>
           </div>
         </div>
       </div>
     </div>
   </main>
-
+<!--Footer-->
     <div class="container">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
@@ -97,6 +140,5 @@
       </footer>
     </div>
   </div>
-
 </body>
 </html>
