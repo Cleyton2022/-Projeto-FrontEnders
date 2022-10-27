@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverOn</title>
+    <link rel="shortcut icon" href="./img/FP_Satellite_icon.svg.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+
+<body>
+    <!– Barra de navegação –>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Front Enders</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <div class="ativado">
+                            <li class="nav-item">
+                                <a class="nav-link" href="contato.html">Contato</a>
+                            </li>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Inscrição</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Solicitar</a></li>
+                                <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!– Fim barra de navegação –>
+            <!– Resposta rapida –>
+                <div class="p-3 mb-2 bg-secondary text-white">
+                    <h1>Resposta rápida</h1>
+                    <h3>Fale conosco.</h3>
+                </div>
+                <form class="row g-3 needs-validation p-5" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                        <div class="valid-feedback">
+                            Tudo Certo!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Sobrenome</label>
+                        <input type="text" class="form-control" id="validationCustom02" required>
+                        <div class="valid-feedback">
+                            Tudo Certo!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Nome de Usuário</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Por favor, escolha um nome de usuário.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Forneça uma cidade válida.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Cep</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                            Forneça um CEP válido.
+                        </div>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Diga-nos o motivo do contato...</label>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+                    </div>
+                </form>
+
+
+                <!– Fim resposta rapida –>
+                    <br>
+                    <br>
+                    <!– Começo nossa equipe –>
+
+                        <div class="p-3 mb-2 bg-secondary text-white">
+                            <h1>Nossa Equipe.</h1>
+                        </div>
+
+                        <div class="card mb-3 p-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./img/Leonnardo.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Leonnardo Lima</h5>
+                                        <br>
+                                        <li>
+                                            <img src="./img/git icon.png" alt="" width="40" height="40">
+                                            github.com/LeonLima1
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <img src="./img/pc icon.png" alt="" width="40" height="30">
+                                            Desenvolvedor full stack
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lado">
+                            <div class="card mb-3 p-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./img/Cleyton.jpeg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Cleyton </h5>
+                                            <br>
+                                            <li>
+                                                <img src="./img/git icon.png" alt="" width="40" height="40">
+                                                github.com/Cleyton2022
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <img src="./img/pc icon.png" alt="" width="40" height="30">
+                                                Desenvolvedor full stack
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 p-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./img/erickson.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Erickson Carvalho</h5>
+                                        <br>
+                                        <li>
+                                            <img src="./img/git icon.png" alt="" width="40" height="40">
+                                            github.com/ericksoncar
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <img src="./img/pc icon.png" alt="" width="40" height="30">
+                                            Desenvolvedor full stack
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lado">
+                            <div class="card mb-3 p-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./img/bruno.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bruno</h5>
+                                            <br>
+                                            <li>
+                                                <img src="./img/git icon.png" alt="" width="40" height="40">
+                                                github.com/BrLacerda
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <img src="./img/pc icon.png" alt="" width="40" height="30">
+                                                Desenvolvedor full stack
+                                            </li>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 p-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./img/Laririn.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Larissa</h5>
+                                        <br>
+                                        <li>
+                                            <img src="./img/git icon.png" alt="" width="40" height="40">
+                                            github.com/laririn
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <img src="./img/pc icon.png" alt="" width="40" height="30">
+                                            Desenvolvedor full stack
+                                        </li>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!– Fim nossa equipe –>
+                            <div class="container">
+                                <footer class="py-3 my-4">
+                                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+                                        </li>
+                                        <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-muted">Contato</a>
+                                        </li>
+                                        <li class="nav-item"><a href="Sobre.html" class="nav-link px-2 text-muted">Sobre</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                                    </ul>
+                                    <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+                                </footer>
+                            </div>
+
+
+
+                            <script src="./js/contato.js"></script>
+</body>
+
+</html>
