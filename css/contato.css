@@ -1,7 +1,8 @@
-.ativado{
+.ativado {
   background-color: #747372;
 }
-.lado{
+
+.lado {
   display: flex;
   flex-direction: row-reverse;
 }

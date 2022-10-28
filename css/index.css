@@ -1,12 +1,13 @@
-.body{
-margin: 0;
-padding: 0;
-font-family: Arial, Helvetica, sans-serif;
+.body {
+  margin: 0;
+  padding: 0;
 }
-.ativado{
+
+.ativado {
   background-color: #747372;
 }
-.meio{
+
+.meio {
   text-align: center;
 }
 
@@ -14,20 +15,24 @@ font-family: Arial, Helvetica, sans-serif;
   position: relative;
   display: inline-block;
 }
+
 input {
   border: 1px solid transparent;
   background-color: #f1f1f1;
   padding: 10px;
   font-size: 16px;
 }
+
 input[type=text] {
   background-color: #f1f1f1;
   width: 100%;
 }
+
 input[type=submit] {
   background-color: DodgerBlue;
   color: #fff;
 }
+
 .autocomplete-items {
   position: absolute;
   border: 1px solid #d4d4d4;
@@ -38,38 +43,45 @@ input[type=submit] {
   left: 0;
   right: 0;
 }
+
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
   background-color: #fff;
   border-bottom: 1px solid #d4d4d4;
 }
+
 .autocomplete-items div:hover {
   background-color: #e9e9e9;
 }
+
 .autocomplete-active {
   background-color: DodgerBlue !important;
   color: #ffffff;
 }
- 
-.txtDispEndereco{
-padding-top: 15px;
+
+.txtDispEndereco {
+  padding-top: 15px;
 }
 
-.mapouter{
-  position:relative;
-  text-align:right;
-  width:100%;height:500px;
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 500px;
   padding-top: 10%;
 }
+
 .gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  width:100%;height:500px;
-  
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 500px;
+
 }
+
 .gmap_iframe {
-  height:500px!important;
+  height: 500px !important;
 }
 
 
@@ -80,6 +92,7 @@ padding-top: 15px;
   width: 30%;
   height: 290px;
 }
+
 .tabcontent {
   float: left;
   padding: 1px 10px;
@@ -110,9 +123,9 @@ padding-top: 15px;
   background-color: #ccc;
 }
 
-.contmax{
-display: flex;
-justify-content: center;
+.contmax {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -132,14 +145,15 @@ justify-content: center;
 }
 
 .overlay {
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
-  opacity:0;
+  opacity: 0;
   color: white;
   font-size: 20px;
   padding: 20px;

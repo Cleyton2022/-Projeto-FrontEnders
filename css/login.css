@@ -11,20 +11,25 @@
     align-items: center;
     justify-content: center;
     box-shadow: 2px 2px 2px 1px black;
-}  
+}
+
 #passwordCont {
     width: 250px;
     height: 50px;
 }
+
 legend {
     color: gray;
 }
+
 label {
     color: gray;
 }
+
 #validationCustomUsername {
     padding-right: 50px;
 }
+
 #commitLogin {
     border-radius: 5px;
     padding-top: 5px;
@@ -32,9 +37,11 @@ label {
     padding-right: 50px;
     padding-left: 50px;
 }
+
 .input-group mb-3 {
     padding-right: 70px;
 }
+
 #linkRedefSenha {
     margin-top: 10px;
 }
