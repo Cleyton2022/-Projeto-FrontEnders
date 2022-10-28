@@ -24,5 +24,3 @@ function validarLogin() {
         return concluido
     }
 }
-const test = "saudação"
-console.log(test.charAt(0) + test.charAt(2) + test.charAt(7))
