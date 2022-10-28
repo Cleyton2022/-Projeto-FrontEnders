@@ -1,0 +1,12 @@
+body {
+    overflow: hidden;
+    font-family: 'Comfortaa', cursive;
+}
+
+label {
+    font-size: medium;
+}
+
+a{
+    color: white;
+}
